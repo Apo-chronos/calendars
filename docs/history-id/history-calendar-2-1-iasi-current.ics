@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//apostolachealin//UAIC Calendar Importer//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:History ID - Year 2
+X-WR-TIMEZONE:Europe/Bucharest
+BEGIN:VEVENT
+UID:59a18783a4b96ad220aa60f5@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20261017T160000
+DTEND;TZID=Europe/Bucharest:20261017T200000
+SUMMARY:OPTIONAL - Introducere în muzeologie (optional 1)
+LOCATION:Cabinet Corp H
+DESCRIPTION:Instructor: Conf. univ. dr. Vasile Cotiugă\nSource page: 1\nO
+ ptional group: 1
+CATEGORIES:OPTIONAL
+END:VEVENT
+BEGIN:VEVENT
+UID:a840c37a11476143d6e108bf@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20261018T140000
+DTEND;TZID=Europe/Bucharest:20261018T180000
+SUMMARY:OPTIONAL - Introducere în muzeologie (optional 1)
+LOCATION:Cabinet Corp H
+DESCRIPTION:Instructor: Conf. univ. dr. Vasile Cotiugă\nSource page: 1\nO
+ ptional group: 1
+CATEGORIES:OPTIONAL
+END:VEVENT
+BEGIN:VEVENT
+UID:0a9f798f9f77ca9edc23b9c4@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20261114T140000
+DTEND;TZID=Europe/Bucharest:20261114T180000
+SUMMARY:Limba engleză
+LOCATION:Sala 1.2
+DESCRIPTION:Instructor: Ciacîru Andreea- Nicole\nSource page: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ad308c2ed375e7be7cc13ee5@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20261121T120000
+DTEND;TZID=Europe/Bucharest:20261121T170000
+SUMMARY:Europa modernă
+LOCATION:Sala II.5
+DESCRIPTION:Instructor: Lect. univ. dr. Cosmin Ionuț Mihuț\nSource page: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:645826cfbac1becd749b27a5@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20261128T120000
+DTEND;TZID=Europe/Bucharest:20261128T200000
+SUMMARY:OPTIONAL - Istoria Bizanțului (optional 2)
+LOCATION:Sala II.5
+DESCRIPTION:Instructor: Conf. univ. dr. Ioan- Augustin Guriță\nSource pag
+ e: 2\nOptional group: 2
+CATEGORIES:OPTIONAL
+END:VEVENT
+BEGIN:VEVENT
+UID:02f800ab9ffb985a2031bdd6@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20261219T090000
+DTEND;TZID=Europe/Bucharest:20261219T130000
+SUMMARY:România modernă
+LOCATION:Cabinet Corp H
+DESCRIPTION:Instructor: Prof. univ. dr. Nelu- Cristian Ploscaru\nSource p
+ age: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:520c00f7a4f3c35528de78e4@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20261220T120000
+DTEND;TZID=Europe/Bucharest:20261220T140000
+SUMMARY:România modernă
+LOCATION:Online
+DESCRIPTION:Instructor: Prof. univ. dr. Nelu- Cristian Ploscaru\nSource p
+ age: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0f3513c4daca94b316470bc1@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20270108T130000
+DTEND;TZID=Europe/Bucharest:20270108T210000
+SUMMARY:OPTIONAL - Diplomația modernă. Congrese și conferințe internation
+ al (optional 2)
+LOCATION:Cabinet Corp H
+DESCRIPTION:Instructor: Prof. univ. dr. Claudiu-Lucian Topor\nSource page
+ : 2\nOptional group: 2
+CATEGORIES:OPTIONAL
+END:VEVENT
+BEGIN:VEVENT
+UID:509c498c3b3febc3e07ab398@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20270109T100000
+DTEND;TZID=Europe/Bucharest:20270109T110000
+SUMMARY:Europa modernă
+LOCATION:Online
+DESCRIPTION:Instructor: Conf. univ. dr. Gabriel Leanca\nSource page: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:48ed07b7416aeb4f6c44b6ed@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20270109T120000
+DTEND;TZID=Europe/Bucharest:20270109T180000
+SUMMARY:România modernă
+LOCATION:Sala II.7
+DESCRIPTION:Instructor: Conf. univ. dr. Adrian-Bogdan Ceobanu\nSource pag
+ e: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2c472246b7b09eb0079d07c8@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20270110T100000
+DTEND;TZID=Europe/Bucharest:20270110T160000
+SUMMARY:Europa modernă
+LOCATION:Sala II.5
+DESCRIPTION:Instructor: Prof. univ. dr. Claudiu-Lucian Topor\nSource page
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0e5357fb78e8cedfb0036cfb@apostolachealin.github.io
+DTSTAMP:20261016T125504Z
+DTSTART;TZID=Europe/Bucharest:20270116T120000
+DTEND;TZID=Europe/Bucharest:20270116T200000
+SUMMARY:Introducere în arhivistică
+LOCATION:Sala 1.2
+DESCRIPTION:Instructor: Prof. univ.dr. Petronel Zahariuc\nSource page: 2
+END:VEVENT
+END:VCALENDAR
