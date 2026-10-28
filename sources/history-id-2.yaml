@@ -1,0 +1,12 @@
+# UAIC Faculty of History, distance learning (ID), year 2.
+# Run: calendar-import --profile history-id-2 --published-date <date>
+# Output: docs/history-id/history-calendar-2-1-iasi-<date>.ics
+format: uaic
+url: https://history.uaic.ro/wp-content/uploads/2026/10/orar-ID-IASI-ARANJAT_o5oct2026.pdf
+domain: history
+class_type: id
+feeds: [2]
+semester: 1
+location: iasi
+published_date: 2026-10-05
+optional: [1, 2]

@@ -1,0 +1,12 @@
+# Liceul Varlaam Mitropolitul, Iași - class 9B weekly timetable.
+# Run: calendar-import --profile liceul-varlaam-9b --file "orar clase.pdf"
+# Output: docs/liceul-varlaam/liceul-varlaam-9b-calendar-full-iasi-<date>.ics
+format: asc-weekly
+domain: liceul-varlaam
+class_type: 9b
+feeds: [9B]
+semester: full
+location: iasi
+school_year: school-years/ro-2026-2027.yaml
+# published_date is read from "Orar generat: ..." on the PDF.
+# Events start on that date; set from_date to start elsewhere.
