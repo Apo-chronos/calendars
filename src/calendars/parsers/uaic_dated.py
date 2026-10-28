@@ -1,3 +1,5 @@
+"""UAIC faculty schedules: dated sessions grouped under "Anul I/II/..." headings."""
+
 from __future__ import annotations
 
 import re
@@ -7,7 +9,7 @@ from pathlib import Path
 
 import pdfplumber
 
-from .models import ReviewItem, ScheduleEvent
+from ..models import UAIC_NAMING, ParseResult, ReviewItem, ScheduleEvent
 
 DATE_RE = re.compile(r"^\d{2}\.\d{2}\.\d{4}\*?$")
 TIME_RE = re.compile(r"(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})")
@@ -180,3 +182,19 @@ def parse_schedule(pdf_path: Path) -> tuple[list[ScheduleEvent], list[ReviewItem
     events.sort(key=lambda event: (event.year, event.date, event.start, event.subject))
     return events, reviews
 
+
+class UaicDatedParser:
+    name = "uaic"
+    feed_label = "study year"
+    naming = UAIC_NAMING
+
+    def detect(self, first_page_text: str) -> bool:
+        return bool(YEAR_RE.search(first_page_text)) and bool(re.search(r"\d{2}\.\d{2}\.\d{4}", first_page_text))
+
+    def available_feeds(self, pdf_path: Path) -> list[str]:
+        events, _ = parse_schedule(pdf_path)
+        return [str(year) for year in sorted({event.year for event in events})]
+
+    def parse(self, pdf_path: Path, options: dict) -> ParseResult:
+        events, reviews = parse_schedule(pdf_path)
+        return ParseResult(events, reviews)
