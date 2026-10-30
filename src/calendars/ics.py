@@ -54,7 +54,7 @@ def _fold(line: str, limit: int = 75) -> str:
 
 def _event_uid(event: ScheduleEvent, metadata: FeedMetadata) -> str:
     basis = "|".join((metadata.domain, metadata.class_type, str(event.year), event.date.isoformat(), event.start.isoformat(), event.subject))
-    return hashlib.sha256(basis.encode("utf-8")).hexdigest()[:24] + "@apostolachealin.github.io"
+    return hashlib.sha256(basis.encode("utf-8")).hexdigest()[:24] + "@apo-chronos.github.io"
 
 
 def render_ics(events: list[ScheduleEvent], metadata: FeedMetadata) -> str:
@@ -62,7 +62,7 @@ def render_ics(events: list[ScheduleEvent], metadata: FeedMetadata) -> str:
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//apostolachealin//UAIC Calendar Importer//EN",
+        "PRODID:-//apo-chronos//UAIC Calendar Importer//EN",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         f"X-WR-CALNAME:{_escape(metadata.calendar_name)}",
